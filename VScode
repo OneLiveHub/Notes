@@ -1,23 +1,23 @@
 预设变量
 ${userHome} - 用户主文件夹路径
-${workspaceFolder} - the path of the folder opened in VS Code 在VS Code中打开的文件夹路径
-${workspaceFolderBasename} - the name of the folder opened in VS Code without any slashes (/) 在VS Code中打开的文件夹名称，不带任何斜杠（/）
-${file} - the current opened file 当前打开的文件
-${fileWorkspaceFolder} - the current opened file's workspace folder 当前打开的文件的工作空间文件夹
-${relativeFile} - the current opened file relative to workspaceFolder -当前打开的文件相对于工作区文件夹
-${relativeFileDirname} - the current opened file's dirname relative to workspaceFolder 当前打开的文件相对于工作空间文件夹的目录名
-${fileBasename} - the current opened file's basename 当前打开的文件的文件名
-${fileBasenameNoExtension} - the current opened file's basename with no file extension 当前打开的文件的基本名称，没有文件扩展名
-${fileExtname} - the current opened file's extension -当前打开文件的扩展名
-${fileDirname} - the current opened file's folder path 当前打开的文件的文件夹路径
-${fileDirnameBasename} - the current opened file's folder name 当前打开的文件的文件夹名称
-${cwd} - the task runner's current working directory upon the startup of VS Code 任务运行器在Vs Code启动时的当前工作目录
-${lineNumber} - the current selected line number in the active file 活动文件中当前选定的行号
-${selectedText} - the current selected text in the active file 活动文件中当前选定的文本
-${execPath} - the path to the running VS Code executable 运行中的VS Code可执行文件的路径运行中的VS Code可执行文件的路径
-${defaultBuildTask} - the name of the default build task 默认生成任务的名称
-${pathSeparator} - the character used by the operating system to separate components in file paths 操作系统在文件路径中用来分隔组件的字符
-${/} - shorthand for ${pathSeparator} ${pathSeparator}的简写
+${workspaceFolder} -  在VS Code中打开的文件夹路径
+${workspaceFolderBasename} -  在VS Code中打开的文件夹名称，不带任何斜杠（/）
+${file} -  当前打开的文件
+${fileWorkspaceFolder} -  当前打开的文件的工作空间文件夹
+${relativeFile} -  -当前打开的文件相对于工作区文件夹
+${relativeFileDirname} -  当前打开的文件相对于工作空间文件夹的目录名
+${fileBasename} -  当前打开的文件的文件名
+${fileBasenameNoExtension} -  当前打开的文件的基本名称，没有文件扩展名
+${fileExtname} -  -当前打开文件的扩展名
+${fileDirname} -  当前打开的文件的文件夹路径
+${fileDirnameBasename} -  当前打开的文件的文件夹名称
+${cwd} -  任务运行器在Vs Code启动时的当前工作目录
+${lineNumber} -  活动文件中当前选定的行号
+${selectedText} -  活动文件中当前选定的文本
+${execPath} -  运行中的VS Code可执行文件的路径运行中的VS Code可执行文件的路径
+${defaultBuildTask} -  默认生成任务的名称
+${pathSeparator} -  操作系统在文件路径中用来分隔组件的字符
+${/} - ${pathSeparator}的简写
 
 预定义变量应用示例
 A file located at /home/your-username/your-project/folder/file.ext opened in your editor;
